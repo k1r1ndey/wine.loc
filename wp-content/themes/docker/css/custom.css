@@ -1,0 +1,698 @@
+/*.bg-dark{*/
+/*    background-color: #0b1512!important;*/
+
+/*}*/
+/*.site-footer{*/
+/*    height: 200px;*/
+/*    position: absolute;*/
+/*    background-color: #0b1512;*/
+/*    left: 0px;*/
+/*    bottom: 20px;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.site-header{*/
+/*    height: 100px;*/
+/*    background-color: #0b1512;*/
+/*    position: absolute;*/
+/*    left: 0px;*/
+/*    top: 0px;*/
+/*    width: 100%;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.footer-list div{*/
+/*    height: 200px;*/
+/*}*/
+
+/*.footer-credo{*/
+/*    background-color: #0b1512;*/
+
+/*}*/
+
+
+.hiw__title{
+    font-size: 36px;
+    font-weight: 400;
+   text-align: center;
+    color: #000;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.item{
+    margin-bottom: 50px;
+}
+
+.item__inner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.item__title{
+    font-size: 16px;
+    line-height: 22px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+.item__img{
+    margin-bottom: 15px;
+}
+
+.item__info{
+    font-size: 14px;
+    font-weight: 400;
+    color: #28272B;
+}
+
+
+.test{
+
+    background-color: #000;
+    height: 100%;
+    position: inherit;
+}
+.test img{
+    height: 100%;
+    max-width: inherit;
+
+}
+.wine{
+    background-color: green;
+    height: 200px;
+}
+
+.wine img{
+    height: 100%;
+    max-width: inherit;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+.gg{
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+}
+
+
+/*.btn{*/
+/*    font-weight: 700;*/
+/*    text-transform: uppercase;*/
+/*    color: #800000;*/
+/*    background-color: #f5f5dc;*/
+/*    height: 45px;*/
+/*    width: 250px;*/
+/*    border: solid #F5F5DC;*/
+
+/*}*/
+
+/*.btn:hover{*/
+/*    background-color: #fff;*/
+/*    border: solid white;*/
+/*    color: gold;*/
+/*}*/
+
+/* Button */
+
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    border-radius: 2px;
+    border: 0px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background .1s linear;
+    text-align: center;
+
+
+}
+
+.btn--red{
+    background-color: red;
+}
+
+.btn--red:hover{
+    background-color: crimson;
+}
+
+.btn--long{
+    min-width: 280px;
+}
+
+
+
+
+.ints__title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 36px;
+    color: rgb(48, 50, 54);
+    margin-bottom: 50px;
+
+}
+
+.img_inst{
+    width: 100%;
+    height: 100%;
+}
+
+.ints{
+    margin-bottom: 30px;
+}
+
+.social__link{
+    margin: 0 auto 100px;
+}
+
+
+.footer{
+    background-color: #41343E;
+    height: 150px;
+}
+
+.name{
+    color: gray;
+    font-size: 13px;
+    top: 70px;
+}
+
+.links{
+    color: #fff;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.links:hover{
+    text-decoration: none;
+    color: gold;
+}
+
+.tag{
+    top: 65px;
+}
+
+.private{
+    color: gray;
+    font-size: 13px;
+    top: 70px;
+    margin-left: 20px;
+
+}
+
+.social{
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.social__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height:50px;
+    border: 1px solid #e8ecee;
+    margin-right: 4px;
+    transition: background .1s linear;
+    margin-bottom: 60px;
+    margin-bottom: 150px;
+
+}
+
+.social--footer{
+    justify-content: center;
+
+}
+
+.social__item:hover{
+    background-color: #000;
+
+}
+
+.social__item:hover .social__icon{
+
+    fill:gold;
+}
+
+.social__icon{
+    fill: gold;
+    height: 18px;
+    display: block;
+    transition: fill .1s linear;
+
+}
+.social--footer .social__item{
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #fff;
+    border-radius: 2px;
+}
+
+.social--footer .social__icon{
+    fill:000; /* цвет иконок */
+}
+.social--footer .social__item:hover{
+    background-color: #fff;
+}
+
+
+
+
+
+
+/*   Social  */
+
+
+.social{
+    display: flex;
+
+}
+
+.social__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e8ecee;
+    margin-right: 4px;
+    transition: background .1s linear;
+
+}
+
+
+.social--footer{
+    justify-content: center;
+
+}
+
+
+
+.social__item:hover{
+    background-color: #e8ecee;
+
+}
+
+.social__item:hover .social__icon{
+
+    fill:#000;
+}
+
+.social__icon{
+    fill: #c6cacc;
+    height: 18px;
+    display: block;
+    transition: fill .1s linear;
+}
+.social--footer .social__item{
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #fff;
+    border-radius: 2px;
+}
+
+.social--footer .social__icon{
+    fill:#fff; /* цвет иконок */
+}
+.social--footer .social__item:hover{
+    background-color: #fff;
+}
+
+.dima{
+    margin: 0 auto ;
+
+}
+
+.kirill-menu{
+    margin-bottom: 50px;
+}
+
+.adv__title{
+    font-size: 36px;
+    font-weight: 400;
+    color: #28272B;
+    text-align: center;
+    margin-bottom: 30px ;
+
+}
+
+.adv__inner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.adv_icon{
+    margin-bottom: 20px;
+}
+
+.item_adv_text{
+    font-weight: 700;
+    color:#000;
+    margin-bottom: 80px;
+}
+
+.go{
+    background: url("/wp-content/uploads/2019/09/go_test_1.jpg");
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.block{
+    text-align: center;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #fff;
+    opacity: 0.3;
+}
+
+.block:hover{
+    opacity: 0.6;
+
+}
+
+.prosp{
+    font-size: 25px;
+    text-transform: uppercase;
+    color:red;
+}
+
+.prosp:hover{
+    text-decoration: none;
+    color: gold;
+    transition: linear .1s;
+}
+
+.tarif{
+    background: url("/wp-content/uploads/2019/09/tarif.jpg");
+    height: 900px;
+
+}
+
+.card{
+    width: 250px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid gray;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.card-title{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.card-suptitle{
+    font-size: 15px;
+
+    margin-bottom: 60px;
+}
+
+.card-subtitle-info{
+
+    font-weight: 700;
+}
+
+.card-body:hover{
+    border: 4px solid #EBBE9B;
+}
+.card-info{
+    height: 300px;
+    overflow: hidden;
+    padding:20px;
+}
+
+.modal-header{
+    border-bottom:none;
+}
+
+.modal-footer{
+    border-top:none;
+}
+
+.modal-body{
+    color:#000;
+}
+
+
+.tarif{
+    background: url("/wp-content/uploads/2019/09/fon_reg.jpg") ;
+    width:100%;
+    height:1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.block_reg{
+    width: 800px;
+    height: 1200px;
+    background-color: #fff;
+
+}
+
+.reg__title{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+    padding-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.form-group{
+    padding-left: 40px;
+}
+
+.fname{
+    font-size: 20px!important;
+    color:#000;
+    text-transform: uppercase;
+
+
+}
+
+#login{
+    border-radius: 0px;
+    height: 50px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    width: 33%;
+}
+
+#first_name{
+    border-radius: 0px;
+    height: 50px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+#first_name:hover{
+    border: 3px solid gold;
+}
+
+.lname{
+    font-size: 20px;
+    color:#000;
+    text-transform: uppercase;
+
+
+}
+
+#last_name{
+    border-radius: 0px;
+    height: 50px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+#last_name:hover{
+    border: 3px solid gold;
+}
+
+.login_reg{
+    font-size: 20px;
+    color:#000;
+    text-transform: uppercase;
+}
+
+
+
+#login:hover{
+    border: 3px solid gold;
+}
+
+
+.info__reg{
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.pass__reg{
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+#password{
+    border-radius: 0px;
+    height: 50px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+#password:hover{
+    border: 3px solid gold;
+}
+
+.repass__reg{
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+#repassword{
+    border-radius: 0px;
+    height: 50px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+#repassword:hover{
+    border: 3px solid gold;
+}
+
+
+.phone__reg{
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+#phone{
+    border-radius: 0px;
+    height: 50px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+#phone:hover{
+    border: 3px solid gold;
+}
+
+
+.email__reg{
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+#email{
+    border-radius: 0px;
+    height: 50px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+#email:hover{
+    border: 3px solid gold;
+}
+
+.pasport__reg{
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+input[type="file"]{
+    display: none;
+}
+.passp{
+    color: #000;
+    height: 80px;
+    width: 350px;
+    background-color: #fff;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+
+}
+
+.passp:hover{
+    border: 2px solid gold;
+}
+
+.button_reg{
+    margin: 0 auto;
+}
+
+.button_reg{
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    text-transform: uppercase;
+}
+
+
+input.error {
+    border: 1px solid #ff0000;
+}
+label.error {
+    color: #ff0000;
+    font-weight: normal;
+}
+
+.login{
+    background: url("/wp-content/uploads/2019/09/tarif.jpg");
+    height: 900px;
+
+}
+
+.half-dima{
+    width: 50% !important;
+}
+
+
